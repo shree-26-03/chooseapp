@@ -1,0 +1,221 @@
+.helpmechoose-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  position: relative; /* Needed for absolute positioning of buttons */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.helpmechoose {
+  font-family: font-bold, sans-serif;
+  text-indent: -0.05em;
+  font-size: 50px;
+}
+
+.quickquesionpara {
+  font-size: 1.8rem;
+}
+
+.twomintue {
+  font-size: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 5px;
+  border-radius: 4px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 4px;
+  transition: width 0.3s;
+}
+
+.content,
+.question-content {
+  margin-top: 50px;
+}
+
+.get-started-btn,
+.continue-btn,
+.option-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.get-started-btn:hover,
+.continue-btn:hover,
+.option-btn:hover {
+  background-color: #005bb5;
+}
+
+.option-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.option-btn:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option-btn:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.option-btn:nth-child(even) {
+  margin-left: 10px;
+}
+
+.navigation {
+  position: absolute;
+  top: 46px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: none;
+  color: #007aff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-btn:hover {
+  color: #005bb5;
+}
+
+.order-now {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+}
+
+.order-now-btn {
+  padding: 10px 40px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.order-now-btn:hover {
+  background-color: #005bb5;
+}
+
+.result-content {
+  margin-top: 50px;
+}
+
+.recommendation-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.phone-details {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.recommendation-details {
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.detail-item h3 {
+  margin: 0;
+  font-size: 16px;
+  flex: 1;
+  text-align: left;
+}
+
+.detail-item p {
+  margin: 0;
+  font-size: 14px;
+  flex: 1;
+  text-align: right;
+}
+
+hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.start-over-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-over-btn:hover {
+  background-color: #005bb5;
+}
