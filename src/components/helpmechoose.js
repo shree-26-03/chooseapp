@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../css/helpmechoose.css";
-import galaxyfold from "../asset/GalaxyFold.jpg";
+import iphone15 from "../asset/15.jpg";
 import phone from "../asset/phone.png";
+import alan from "../asset/Alen_icon.png";
 
 const HelpMeChoose = () => {
   const [step, setStep] = useState(0);
@@ -32,12 +33,12 @@ const HelpMeChoose = () => {
 
   const generateRecommendation = () => {
     setRecommendation({
-      name: "Samsung Galaxy Z Fold5",
+      name: "iphone 155",
       price: "$50.00/mo",
-      color: "Phantom Black",
+      color: "Light Pink",
       capacity: "256 GB",
       paymentMethod: "AT&T Installment Plan",
-      image: galaxyfold,
+      image: iphone15,
     });
   };
 
@@ -196,13 +197,13 @@ const HelpMeChoose = () => {
           </button>
         </div>
       )}
-      <div className="order-now">
+      {/* <div className="order-now">
         <button className="order-now-btn">
           ORDER NOW
           <br />
           866-595-2662
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
